@@ -3,6 +3,7 @@ public class DateTimeMethodsDemo {
         //1. birthdate
         date birthdate = date.newInstance(1990, 10, 9);
         date todayDate = date.today();
+
         integer ageInMonths  = birthdate.monthsBetween(todayDate);
         system.debug('Vitap age in Months = ' + ageInMonths);
 
