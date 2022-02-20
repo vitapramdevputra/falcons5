@@ -15,6 +15,18 @@ public  class Greetings {
        return greet;
    }
 
+   public string GreetingHello(integer n){
+    String greet = GreetingHello();
+     
+     string finalReturnString = greet;
+     for (Integer i = 1; i < n; i++) {
+         finalReturnString = finalReturnString + ' ' + greet;
+     }
+    return finalReturnString;
+}
+
+
+
    public string GreetingHello2(){
        string greet = '';
         switch on language {
