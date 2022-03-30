@@ -1,3 +1,4 @@
+//map demo. we did some time back.
 map<string, string> mapCountryCurrency = new map<string, string>();
 mapCountryCurrency.put('USA', 'Dollar');
 mapCountryCurrency.put('Japan', 'Yen');
