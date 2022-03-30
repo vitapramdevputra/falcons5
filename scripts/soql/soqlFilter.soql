@@ -1,0 +1,3 @@
+select id, name, mailingcity from contact where mailingcity = 'Paris'
+
+select id, name, mailingcity from contact where Name like 'A%'

@@ -1,0 +1,5 @@
+//asdfasdf
+select count() from Contact
+select count(id) from contact
+
+select count(mailingcity) from contact

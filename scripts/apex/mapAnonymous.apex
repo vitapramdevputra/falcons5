@@ -9,7 +9,8 @@ mapCountryCurrency.put('El Salvador', 'Bitcoin');
 
 system.debug('map of country vs currency : ' + mapCountryCurrency);
 
-string IndiaCurrency = mapCountryCurrency.get('India');
+string s = 'India';
+string IndiaCurrency = mapCountryCurrency.get(s);
 string TurkiyeCurrency = mapCountryCurrency.get('Turkiye');
 
 system.debug('India currency = ' + IndiaCurrency);
@@ -22,5 +23,7 @@ List<string> currencies = mapCountryCurrency.values();
 system.debug('currencies = ' + currencies);
 
 for(string country: countries){
-    system.debug(country);
+    system.debug('each country = ' + country);
+    string eachCurrency = mapCountryCurrency.get(country);
+    system.debug('currency is ' + eachCurrency);
 }

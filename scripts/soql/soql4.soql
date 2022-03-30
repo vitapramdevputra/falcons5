@@ -1,0 +1,5 @@
+select id, name, phone, email, 
+account.Name, account.industry, account.phone from contact
+
+select id, name, subject__c, salesforce_project__r.name, 
+salesforce_project__r.status__c from salesforce_ticket__c

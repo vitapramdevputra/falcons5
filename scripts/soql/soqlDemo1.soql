@@ -1,0 +1,6 @@
+SELECT id, name from Account
+SELECT id, name, phone from account where phone != null
+SELECT id, name, phone from account where phone != null and accountNumber != null
+SELECT id, name from Account Order by Name desc
+
+select id, name, industry from account where industry = 'Energy' limit 2

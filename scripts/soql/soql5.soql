@@ -1,0 +1,1 @@
+select id, name, phone, (Select id, lastname from contacts) from account

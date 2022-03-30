@@ -28,4 +28,11 @@ public class SetDemo {
         s.addAll(iL);
         return s;
     }
+    public static void randomList() {
+        List<integer> l = new list<integer>();
+        l.add(4);
+        l.add(5);
+        set<integer> s = setFromList(l);
+        system.debug(s);
+    }
 }

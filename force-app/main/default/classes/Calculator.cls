@@ -21,7 +21,7 @@ public class Calculator {
         }
        return returnInteger;
    }
-   
+   //same method name 
    public static integer add(integer int1, integer int2, integer int3){
         return int1 + int2 + int3;
    }

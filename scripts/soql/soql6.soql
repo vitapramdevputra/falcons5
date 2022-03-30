@@ -1,0 +1,3 @@
+select sum(amount), StageName from Opportunity group by StageName
+
+select LeadSource, count(name), name from Lead group by LeadSource
